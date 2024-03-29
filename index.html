@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather App</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="weather">
+            <form class="formField">
+                <input type="text" class="inputField" placeholder="Enter City....">
+                <button type="submit" class="button"><img class="searchIcon" src="./img/search icon.jpg" alt=""></button>
+            </form>
+            <div class="location">Amla</div>
+            <div class="tempField">
+                <div class="date">Date Field</div>
+                <!-- <div class="tempBox">Max. <span class="maxTemp">24°C</span>, Min. <span class="minTemp">12°C</span>
+                </div> -->
+            </div>
+            <div class="tempContainer">
+                <div class="temp">
+                    <div class="temperature">22°C</div>
+                    <div class="feelsLike">Feels Like <span>21°C</span></div>
+                </div>
+                <div class="iconContainer">
+                    <img class="icon" src="" alt="icon">
+                    <div class="condition">condition</div>
+                </div>
+            </div>
+            <div class="dataField">
+                <div class="sunriseContainer">
+                    <img src="./img/Sunrise png.png" alt="Sunrise">
+                    <div class="sunriseSection">
+                        <span id="sunrise">Sunrise</span>
+                        <p>Sunrise Time</p>
+
+                    </div>
+                </div>
+                <div class="sunsetContainer">
+                    <img src="./img/Sunset png.png" alt="Sunset">
+                    <div class="sunsetSection">
+                        <span id="sunset">Sunset</span>
+                        <p>Sunset Time</p>
+
+                    </div>
+                </div>
+                <div class="humidityContainer">
+                    <img src="./img/humidity icon png.png" alt="Humidity Icon">
+                    <div class="humiditySection">
+                        <span class="humidity">humidity</span>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+                <div class="windSpeedContainer">
+                    <img src="./img/wind_speed_icon_png.png" alt="Wind Speed">
+                    <div class="windSpeedSection">
+                        <span class="windSpeed">5.4 km/h</span>
+                        <p>Wind Speed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
